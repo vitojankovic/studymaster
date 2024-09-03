@@ -1,35 +1,30 @@
 const express = require('express');
-const app = express()
+const app = express();
 const cookieParser = require("cookie-parser");
 const session = require('express-session');
-const bodyParser = require('body-parser')
-const cors = require('cors')
-const mysql = require("mysql2")
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const mysql = require("mysql2");
 const jwt = require('jsonwebtoken');
+require('dotenv').config();
 
-app.set('trust proxy', 1) // trust first proxy
+app.set('trust proxy', 1);
 
 const db = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "7EDs8Gphmysql24816",
-  database: "sm_database"
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME
 });
 
-// 23:39
-
-// cookie parser middleware
+// Middleware
 app.use(cookieParser());
-app.use(cors())
-app.use(express.json())
-app.use(bodyParser.urlencoded({extended: true}))
+app.use(cors());
+app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-/*app.get('/api/get', (req, res) => {
-  const sqlSelect = "SELECT * FROM sm_data";
-  db.query(sqlSelect, (err, result)=> {
-    res.send(result)
-  });
-})*/
+// Use environment variable for JWT secret key
+const secretKey = process.env.JWT_SECRET_KEY;
 
 // middleware
 /*app.use(session({secret: 'ssshhhhh',saveUninitialized: true,resave: true}));
