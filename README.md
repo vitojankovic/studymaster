@@ -1,7 +1,7 @@
 # 📚 StudyMaster
 
-![image](https://github.com/user-attachments/assets/9b879812-bf8e-40b9-988d-c905f67ce81e)
 ![studymaster-home](https://github.com/user-attachments/assets/3331225e-7a1a-4c5e-b460-57dfc48e1a13)
+![image](https://github.com/user-attachments/assets/15c3de13-89cf-4252-b08e-badd6ccf9770)
 ![studymaster-chats](https://github.com/user-attachments/assets/5a30d43b-5519-47bc-949d-29973feb5ac5)
 
 
