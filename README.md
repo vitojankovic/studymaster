@@ -1,8 +1,9 @@
 # 📚 StudyMaster
 
-![studymaster-home](https://github.com/user-attachments/assets/3331225e-7a1a-4c5e-b460-57dfc48e1a13)
-![image](https://github.com/user-attachments/assets/15c3de13-89cf-4252-b08e-badd6ccf9770)
-![studymaster-chats](https://github.com/user-attachments/assets/5a30d43b-5519-47bc-949d-29973feb5ac5)
+
+![studyktgopwenmhgew](https://github.com/user-attachments/assets/de9eb820-de49-4558-a56d-608c6f174473)
+![zhrwščhklrw](https://github.com/user-attachments/assets/cd69cd10-263a-4ba9-82da-cd33dee239ea)
+![klu5l578](https://github.com/user-attachments/assets/4bcc742e-1c88-4f1a-92e5-1e6e4fc2b230)
 
 
 
